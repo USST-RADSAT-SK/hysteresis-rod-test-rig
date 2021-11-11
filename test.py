@@ -2,11 +2,8 @@
 # Date - 25th october, 2021
 # Authors - Lukas, Atharva
 
-
-import csv 
 import numpy as np
 import matplotlib.pyplot as plt
-
 
 data = np.genfromtxt(fname='Initial_Data\scope_1.csv', skip_header=2,  delimiter= ',')
 valid = ~np.isnan(data[:, 1])
